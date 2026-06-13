@@ -16,7 +16,10 @@ with open(filePath, "r", encoding="utf-8") as file2:
 # readlines 读取所有行 返回列表
 with open(filePath, "r", encoding="utf-8") as file3:
     content3 = file3.readlines()
-print(f"contet3{content3}")
+    print(f"contet3{content3}")
+
+    for index,line in enumerate(content3):
+        print(f"index:{index},line:{line}")
 
 file.close()
 

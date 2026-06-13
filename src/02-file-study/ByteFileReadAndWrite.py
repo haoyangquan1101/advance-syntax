@@ -1,7 +1,6 @@
 """
 二进制文件读写
 """
-import os
 import os.path
 
 # 获取当前脚本所在目录
